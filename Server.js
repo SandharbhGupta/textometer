@@ -16,10 +16,10 @@ const strings = [
   { id: 5, text: 'Dream big and dare to fail.' },
   { id: 6, text: 'Your time is limited, don’t waste it living someone else’s life.' },
   { id: 7, text: 'The best way to predict the future is to create it.' },
-  { id: 8, text: 'Life is what happens when you're busy making other plans.' },
-  { id: 9, text: 'Success usually comes to those who are too busy to be looking for it."' },
+  { id: 8, text: 'Life is what happens when you are busy making other plans.' },
+  { id: 9, text: 'Success usually comes to those who are too busy to be looking for it.' },
   { id: 10, text: 'You only live once, but if you do it right, once is enough.' },
-  { id: 11, text: 'In the middle of every difficulty lies opportunity.' },
+  { id: 11, text: 'In the middle of every difficulty lies opportunity.' }
 ];
 
 // API endpoint to return a random string
