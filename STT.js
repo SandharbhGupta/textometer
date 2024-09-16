@@ -20,7 +20,7 @@ function counter() {
 }
 loadingEl.classList.remove("d-none");
 
-fetch("http://localhost:3000/random-string", option)
+fetch("https://server-1-xrt9.onrender.com/random-string", option)
     .then(function(response) {
         counter();
         return response.json();
@@ -51,7 +51,7 @@ submitBtnEl.onclick = function() {
 };
 resetBtnEl.onclick = function() {
     resultEl.textContent = "";
-    fetch("http://localhost:3000/random-string", option)
+    fetch("https://server-1-xrt9.onrender.com/random-string", option)
         .then(function(response) {
             return response.json();
         })
